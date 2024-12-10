@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import portfolio from '../../assets/portfolio_ali.png'
+// import portfolio from '../../assets/portfolioimage1.jpg'
 
 const About = () => {
     return (
@@ -43,13 +44,13 @@ const About = () => {
             </Container> */}
 
 
-            <div className="about_section bg-[rgb(55,55,55)]  flex flex-col justify-between items-center gap-20 px-5 py-32 md:flex-row " id='about'>
+            <div className="about_section bg-[rgb(55,55,55)] flex flex-col gap-5 pl-2   items-center justify-around py-32 sm:px-10 md:px-7 md:flex-row " id="about">
                 <div className="about_image">
-                    <div className='h-[300px] w-[300px]'>
-                        {/* <img src={portfolio} alt="" className='h-[100%] w-[100%]' /> */}
+                    <div className='h-[250px] w-[250px] md:w-[350px] md:h-[350px] bg-white rounded-3xl '>
+                        <img src={portfolio} alt="" className='h-[100%] w-[100%]' />
                     </div>
                 </div>
-                <div className="content_about text-white artifika-regular text-2xl md:text-2xl lg:text-3xl ">
+                <div className="content_about text-white artifika-regular  md:w-[500px]  text-xl lg:w-[800px] md:text-2xl">
                     <div>
                         <h1>Hey there!👋</h1>
                     </div>
